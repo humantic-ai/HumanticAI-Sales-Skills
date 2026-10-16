@@ -24,8 +24,7 @@ All seven install together. Pick your assistant.
 | :--- | :--- | :--- |
 | **Claude** | Paste the prompt below into a chat | [Claude guide](docs/install/claude.md) |
 | **ChatGPT** | Your workspace admin imports this repo under **Admin**, **Plugins**, **Import marketplace** | [ChatGPT guide](docs/install/chatgpt.md) |
-| **Microsoft Copilot** | Upload [this one file](https://github.com/humantic-ai-inc/HumanticAI-Sales-Skills/raw/main/dist/humantic-sales-skills-copilot.zip) in Cowork under **Customize**, **Plugins** | [Copilot guide](docs/install/copilot.md) |
-| **Gemini, or anything else** | Upload one at a time, or paste into a chat | [All assistants](INSTALL.md) |
+| **Microsoft Copilot** | Upload [this one file](https://github.com/humantic-ai-inc/HumanticAI-Sales-Skills/raw/main/dist/humantic-sales-skills-copilot.zip) in Cowork under **Customize**, **Plugins** | [Microsoft Copilot guides](docs/install/microsoft/README.md), one page for each Copilot product, including Copilot Studio |
 
 **Claude, in one step:**
 
@@ -51,7 +50,7 @@ Then list the seven skill names.
 ```text
 Read
 https://raw.githubusercontent.com/humantic-ai-inc/HumanticAI-Sales-Skills/main/INSTALL.md
-then load the seven skills listed under "Any assistant: paste into a
+then load the seven skills listed under "Paste into a
 chat" and use them for the rest of this conversation. Tell me which
 skill you used each time. List the seven names, then ask me what I am
 working on.
@@ -71,13 +70,13 @@ The [prompt library](prompts/README.md) has 55 ready-to-paste prompts, one reque
 | :--- | :--- |
 | `skills/` | The seven skills |
 | `prompts/` | The prompt library |
-| `docs/` | Install guides, the Humantic AI setup guide, and reference pages |
+| `docs/` | Install guides for Claude, ChatGPT and Microsoft Copilot (one page for each Copilot product), the Humantic AI setup guide, and reference pages |
 | `dist/` | Ready-made downloads: one plugin file per assistant, and single skills |
 | `packaging/` | The Microsoft Copilot and OpenAI plugin files and icons |
 | `templates/` | The starting point for a new skill |
 | `scripts/` | Checks the skills and builds the downloads |
 
-The Claude plugin lives in `.claude-plugin/` and the OpenAI plugin in `plugin.json` and `.agents/plugins/`. Those stay at the top because Claude, ChatGPT, Codex and GitHub Copilot look for them there.
+The Claude plugin lives in `.claude-plugin/` and the OpenAI plugin in `plugin.json` and `.agents/plugins/`. Those stay at the top because Claude and ChatGPT look for them there.
 
 ## Two things to know
 

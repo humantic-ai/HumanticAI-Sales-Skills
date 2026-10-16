@@ -21,7 +21,7 @@ python3 scripts/build-packages.py
 5. Add the skill to `packaging/microsoft/manifest.json` under `agentSkills`, and to the tables in `README.md` and `skills/README.md`.
 6. Run both scripts above, then commit.
 
-A Microsoft Copilot agent holds at most eight skills, and a Cowork plugin at most twenty. Check those limits before adding the eighth.
+A Copilot Agent Builder agent holds at most eight skills, and a Cowork plugin at most twenty. A Copilot Studio agent takes one skill per upload. Check those limits before adding the eighth.
 
 ## How every skill is written
 

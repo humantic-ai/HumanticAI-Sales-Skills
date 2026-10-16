@@ -73,7 +73,7 @@ codex plugin add humantic-sales-skills@humantic-ai
 
 Skills are on ChatGPT **Business, Enterprise, Healthcare and Edu**. ChatGPT takes one skill per upload.
 
-1. Download the skills you want from [dist/one-skill/chatgpt-copilot-gemini](../../dist/one-skill/chatgpt-copilot-gemini). Open each file, then select **Download raw file**. All seven are also in [all-skills.zip](https://github.com/humantic-ai-inc/HumanticAI-Sales-Skills/raw/main/dist/all-skills.zip).
+1. Download the skills you want from [dist/one-skill/chatgpt-microsoft](../../dist/one-skill/chatgpt-microsoft). Open each file, then select **Download raw file**. All seven are also in [all-skills.zip](https://github.com/humantic-ai-inc/HumanticAI-Sales-Skills/raw/main/dist/all-skills.zip).
 2. In ChatGPT, open **Plugins** in the sidebar.
 3. Open the **Skills** tab.
 4. Select **Create**, then **Upload from your computer**, and choose one file.
